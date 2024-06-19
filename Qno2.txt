@@ -1,0 +1,9 @@
+Qno 2. Explain the Gitwork flow including the staging area, working directory and repository?
+Ans :  Git workflow and its components:
+	1. Working Directory:-The working directory in Git is where you create, modify, delete, and organize your files and directories.
+			      It's essentially your local file system where you do all your work.
+	2. Staging Area (Index):-The staging area, also known as the index, acts as a middle ground between your working directory and your Git repository. It's a place where you can collect and prepare changes before committing them to the repository.
+				 When you make changes to files in your working directory, Git recognizes these changes as modifications that are potentially ready to be committed. However, these changes are not automatically saved in Git. Instead, you explicitly add them to the staging
+ 				 area using the git add command. This allows you to selectively stage only those changes that you want to include in the next commit.
+	3. Repository (Git Repository):-The Git repository is where Git permanently stores all the committed snapshots or versions of your project. It resides in the .git directory at the root of your project. Once changes are staged in the index, you commit them to the repository using git commit. 
+					This action creates a new commit containing a snapshot of all files currently staged in the index.
